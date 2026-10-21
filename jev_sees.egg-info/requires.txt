@@ -1,0 +1,18 @@
+typesafe-sdk>=0.1
+numpy
+opencv-python
+pillow
+scipy
+scikit-learn
+torch
+transformers==4.49.0
+timm
+einops
+clip @ git+https://github.com/openai/CLIP.git
+openpyxl
+
+[dev]
+pytest
+
+[yolo]
+ultralytics

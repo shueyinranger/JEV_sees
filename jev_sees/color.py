@@ -6,7 +6,7 @@ import colorsys
 
 import numpy as np
 
-
+#can we replace the color with color code????
 COLOR_NAMES = ("red", "orange", "yellow", "green", "blue", "white", "black", "gray")
 
 

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['NO_Safety_Vest', 'Person', 'Safety_Vest']
+
+roboflow:
+  workspace: test1-8w0vj
+  project: vestonly
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test1-8w0vj/vestonly/dataset/1

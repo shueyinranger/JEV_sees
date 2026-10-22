@@ -5,13 +5,14 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "jev-sees"
 version = "0.1.0"
-description = "Camera facts for JEV: RGB and RGB-D perception, scene memory, and closed questions."
+description = "Camera facts for JEV: RGB and RGB-D perception, scene memory, and closed questions. Classification."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "Charles Feng" }]
 dependencies = [
     "typesafe-sdk>=0.1",
+    "python-dotenv",
     "numpy",
     "opencv-python",
     "pillow",
@@ -23,6 +24,7 @@ dependencies = [
     "einops",
     "clip @ git+https://github.com/openai/CLIP.git",
     "openpyxl",
+    "requests>=2.34.2",
 ]
 
 [project.optional-dependencies]
